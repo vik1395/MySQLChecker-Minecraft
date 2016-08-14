@@ -1,0 +1,20 @@
+# Please enter the Host of your MySQL Database here.
+Host: 127.0.0.1
+
+# Please enter the port where your MySQL is hosted.
+Port: '3306'
+
+# The Username which should be used to auth against the Database
+Username: root
+
+# The Password which should be used to auth against the Database
+Password: ''
+
+# The name of the database where BungeeAuth's Tables shall be created.
+Database: Bungee
+
+# Interval is the time in minutes before the plugin checks for a connection to the SQL Database again.
+Interval: 5
+
+# Number of attempts before the server is shut down.
+Max Attempts: 3
